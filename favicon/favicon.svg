@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Tecceramica">
+  <defs>
+    <linearGradient id="tc-bg" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0B1F3A" />
+      <stop offset="1" stop-color="#1E3A5F" />
+    </linearGradient>
+  </defs>
+  <circle cx="32" cy="32" r="32" fill="url(#tc-bg)" />
+  <path
+    d="M17 22h24v5.2h-9.4V45h-5.2V27.2H17z"
+    fill="#FFFFFF"
+    opacity="0"
+  />
+  <!-- Monograma simplificado "TC": T sobreposto a um C aberto -->
+  <path d="M18 20h20a2 2 0 0 1 0 4H30v18a2 2 0 0 1-4 0V24h-8a2 2 0 0 1 0-4z" fill="#FFFFFF" />
+  <path
+    d="M40.5 24.5a9 9 0 1 0 5.7 16"
+    fill="none"
+    stroke="#FFFFFF"
+    stroke-width="3.4"
+    stroke-linecap="round"
+  />
+</svg>

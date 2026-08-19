@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Política de Privacidade | Tecceramica</title>
+  <meta name="description" content="Política de privacidade da Tecceramica — como tratamos os dados enviados pelo formulário de contato do site." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.tecceramica.com.br/privacy-policy.html" />
+  <meta name="theme-color" content="#0B1F3A" />
+
+  <link rel="icon" type="image/svg+xml" href="favicon/favicon.svg" />
+  <link rel="alternate icon" type="image/jpeg" href="favicon/favicon-fallback.jpg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@600;700;800&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#conteudo-principal">Pular para o conteúdo principal</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html" aria-label="Tecceramica — página inicial">
+        <img src="images/logo/logo-tecceramica.jpg" alt="Logotipo Tecceramica" width="40" height="40" />
+        <span>Tecceramica</span>
+      </a>
+      <nav class="nav" aria-label="Navegação">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="index.html">Voltar ao site</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo-principal">
+    <section class="section">
+      <div class="container" style="max-width: 780px;">
+        <span class="eyebrow">Legal</span>
+        <h1 class="section-title" style="text-align:left; margin-bottom: var(--space-md);">Política de Privacidade</h1>
+
+        <p style="margin-bottom: var(--space-md); color: var(--color-text-muted);">
+          Última atualização: documento-modelo, ainda não revisado juridicamente. Substitua este
+          texto por uma política de privacidade revisada por um profissional habilitado antes de
+          publicar o site em produção, especialmente quanto ao tratamento de dados de acordo com a
+          Lei Geral de Proteção de Dados (LGPD).
+        </p>
+
+        <h2 style="margin-bottom: var(--space-xs);">1. Quais dados coletamos</h2>
+        <p style="margin-bottom: var(--space-md); color: var(--color-text-muted);">
+          Ao preencher o formulário de contato deste site, você nos envia voluntariamente: nome,
+          nome da clínica (opcional), WhatsApp, e-mail (opcional), cidade (opcional), especialidade
+          (opcional) e a mensagem que você escrever.
+        </p>
+
+        <h2 style="margin-bottom: var(--space-xs);">2. Para que usamos esses dados</h2>
+        <p style="margin-bottom: var(--space-md); color: var(--color-text-muted);">
+          Usamos esses dados exclusivamente para responder ao seu contato e apresentar os serviços
+          da Tecceramica. Não vendemos nem compartilhamos seus dados com terceiros para fins de
+          marketing.
+        </p>
+
+        <h2 style="margin-bottom: var(--space-xs);">3. Como seus dados são enviados</h2>
+        <p style="margin-bottom: var(--space-md); color: var(--color-text-muted);">
+          Enquanto este site não tiver um backend próprio configurado, o formulário de contato
+          encaminha as informações preenchidas diretamente para o WhatsApp da Tecceramica, aberto
+          no seu próprio dispositivo — nenhum dado é armazenado em servidores deste site.
+        </p>
+
+        <h2 style="margin-bottom: var(--space-xs);">4. Seus direitos</h2>
+        <p style="margin-bottom: var(--space-md); color: var(--color-text-muted);">
+          Você pode solicitar a qualquer momento a exclusão dos seus dados de contato entrando em
+          contato pelos canais informados na página inicial deste site.
+        </p>
+
+        <h2 style="margin-bottom: var(--space-xs);">5. Contato</h2>
+        <p style="color: var(--color-text-muted);">
+          Dúvidas sobre esta política podem ser enviadas para o e-mail ou WhatsApp informados na
+          página inicial.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer__bottom">
+        <span>&copy; <span class="js-current-year"></span> Tecceramica — Prótese Dentária. Todos os direitos reservados.</span>
+        <div class="footer__legal">
+          <a href="index.html">Voltar ao site</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/config.js" defer></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      var yearEl = document.querySelector(".js-current-year");
+      if (yearEl) yearEl.textContent = String(new Date().getFullYear());
+    });
+  </script>
+</body>
+</html>
